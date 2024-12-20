@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Tweet Current Tab",
+    "version": "1.0",
+    "description": "現在開いているタブのリンクをツイートします",
+    "permissions": [
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "128": "icon.png"
+    }
+}
